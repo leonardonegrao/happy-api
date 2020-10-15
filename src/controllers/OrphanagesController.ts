@@ -3,7 +3,7 @@ import { getRepository } from 'typeorm';
 import * as Yup from 'yup';
 import orphanageView from '../views/orphanages_view';
 import Orphanage from '../models/Orphanage';
-
+import { validateBoolean } from '../helpers/helpers';
 export default {
   async index(request: Request, response: Response) {
     const orphanagesRepository = getRepository(Orphanage);
@@ -38,7 +38,7 @@ export default {
   
     const orphanagesRepository = getRepository(Orphanage);
 
-    const requestImages = request.files as Express.Multer.File[];
+    const requestImages = request.files as Express.Multer.File[] || [];
     const images = requestImages.map(image => {
       return { path: image.filename };
     });
@@ -50,7 +50,7 @@ export default {
       about,
       instructions,
       opening_hours,
-      open_on_weekends,
+      open_on_weekends: validateBoolean(open_on_weekends),
       images
     }
 
@@ -61,7 +61,7 @@ export default {
       about: Yup.string().required().max(300),
       instructions: Yup.string().required(),
       opening_hours: Yup.string().required(),
-      open_on_weekends: Yup.boolean().required(),
+      open_on_weekends: Yup.bool().required(),
       images: Yup.array(
         Yup.object().shape({
           path: Yup.string().required()
