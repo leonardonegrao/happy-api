@@ -25,7 +25,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Sobre o projeto
 
-Happy é um projeto criado para ajudar pessoas a encontrarem orfanatos para visitação em suas regiões. O projeto possui suas versões em web e mobile, feitas em ReactJS e React Native, respectivamente.
+Happy é um projeto criado para ajudar pessoas a encontrarem orfanatos para visitação em suas regiões. O projeto possui suas versões em [web](https://github.com/leonardonegrao/happy-web) e [mobile](https://github.com/leonardonegrao/happy-mobile), feitas em ReactJS e React Native, respectivamente.
 
 A API segue a arquitetura REST para permitir a comunicação com as duas plataformas, e foi criada usando NodeJS e TypeScript. Já o banco de dados é SQLite, e para a comunicação entre API e banco de dados é utilizado o TypeORM.
 
@@ -44,7 +44,7 @@ Orfanatos possuem dados descritivos, além de imagens, e suas localizações (la
 
 Para rodar a aplicação, siga os passos a seguir.
 
-### Prerequisites
+### Pré-requisitos
 
 É necessário ter o NodeJS e o NPM (ou Yarn) instalados na máquina para rodar a aplicação. Para instalar essas dependências, siga as instruções de seus sites:
 
@@ -74,7 +74,7 @@ yarn
 <!-- USAGE EXAMPLES -->
 ## Uso
 
-O projeto pode ser usado em conjunto com a versão web ou a versão mobile para uma experiência mais genuína. Porém também pode ser testado usando aplicações como Postman e Insomnia.
+O projeto pode ser usado em conjunto com a versão [web](https://github.com/leonardonegrao/happy-web) ou a versão [mobile](https://github.com/leonardonegrao/happy-mobile) para uma experiência mais genuína. Porém também pode ser testado usando aplicações como [Postman](https://www.postman.com/) e [Insomnia](https://insomnia.rest/).
 
 As rotas da API são as seguintes:
 
@@ -103,7 +103,7 @@ POST http://localhost:3333/orphanages
 ```
 
 <!-- CONTACT -->
-## Contact
+## Contato
 
 Leonardo Negrão - [leonardolnegrao@gmail.com](mailto:leonardolnegrao@gmail.com)
 
