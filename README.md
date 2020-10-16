@@ -1,28 +1,15 @@
-<!-- PROJECT SHIELDS -->
-[![LinkedIn][linkedin-shield]][linkedin-url]
+# Happy API
 
-
-
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <h3 align="center">Happy API</h3>
-</p>
-
-
-
-<!-- TABLE OF CONTENTS -->
 ## Tabela de conteúdo
 
-* [Sobre o projeto](#sobre-o-projeto)
-  * [Tecnologias usadas](#tecnologias-usadas)
-* [Primeiros passos](#primeiros-passos)
-  * [Pré-requisitos](#pré-requisitos)
-  * [Instalação](#instalação)
-* [Uso](#uso)
-* [Contato](#contato)
+- [Sobre o projeto](#sobre-o-projeto)
+  - [Tecnologias usadas](#tecnologias-usadas)
+- [Primeiros passos](#primeiros-passos)
+  - [Pré-requisitos](#pré-requisitos)
+  - [Instalação](#instalação)
+- [Uso](#uso)
+- [Contato](#contato)
 
-<!-- ABOUT THE PROJECT -->
 ## Sobre o projeto
 
 Happy é um projeto criado para ajudar pessoas a encontrarem orfanatos para visitação em suas regiões. O projeto possui suas versões em [web](https://github.com/leonardonegrao/happy-web) e [mobile](https://github.com/leonardonegrao/happy-mobile), feitas em ReactJS e React Native, respectivamente.
@@ -33,13 +20,12 @@ Orfanatos possuem dados descritivos, além de imagens, e suas localizações (la
 
 ### Tecnologias usadas
 
-* [NodeJS](https://nodejs.org/en/)
-* [TypeSCript](https://www.typescriptlang.org/)
-* [TypeORM](https://typeorm.io/#/)
-* [Multer](https://www.npmjs.com/package/multer)
-* [SQLite 3](https://www.npmjs.com/package/sqlite3)
+- [NodeJS](https://nodejs.org/en/)
+- [TypeSCript](https://www.typescriptlang.org/)
+- [TypeORM](https://typeorm.io/#/)
+- [Multer](https://www.npmjs.com/package/multer)
+- [SQLite 3](https://www.npmjs.com/package/sqlite3)
 
-<!-- GETTING STARTED -->
 ## Primeiros passos
 
 Para rodar a aplicação, siga os passos a seguir.
@@ -69,9 +55,6 @@ npm install
 yarn
 ```
 
-
-
-<!-- USAGE EXAMPLES -->
 ## Uso
 
 O projeto pode ser usado em conjunto com a versão [web](https://github.com/leonardonegrao/happy-web) ou a versão [mobile](https://github.com/leonardonegrao/happy-mobile) para uma experiência mais genuína. Porém também pode ser testado usando aplicações como [Postman](https://www.postman.com/) e [Insomnia](https://insomnia.rest/).
@@ -102,8 +85,9 @@ POST http://localhost:3333/orphanages
 --form 'images=Imagens do orfanato (arquivos)'
 ```
 
-<!-- CONTACT -->
 ## Contato
+
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 Leonardo Negrão - [leonardolnegrao@gmail.com](mailto:leonardolnegrao@gmail.com)
 
