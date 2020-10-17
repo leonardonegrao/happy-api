@@ -1,5 +1,7 @@
 # Happy API
 
+![Happy](https://github.com/rocketseat-education/nlw-03-omnistack/raw/master/.github/happy.png)
+
 ## Tabela de conteúdo
 
 - [Sobre o projeto](#sobre-o-projeto)
